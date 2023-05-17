@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/popper.js@1"></script>
+    <script src="https://unpkg.com/tippy.js@5"></script>
+    <title>Document</title>
+</head>
+<body class="bg-sky-950">
+    <div class="countainer1 relative -top-[12px] flex justify-center items-center w-full h-10 bg-black mt-3 text-aliceblue"> Header! </div>
+    <div class="countainer2 relative top-[4px] h-[392px] -m-2">
+        <div class="header">
+
+        </div>
+        <div class="box relative -top-2 left-0 w-full h-[400px] z-10 text-aliceblue bg-dark">
+            <div class="image-box absolute top-[75px] left-20 w-25% h-60% m-0 z-20 ">
+                <img src="./image/Startup.jpg" alt="" title="StratUP" class="startup-image w-full h-full">
+            </div>
+            <div class="description-box flex justify-center items-center absolute w-50% right-[125px] top-[100px] max-h-40% overflow-hidden">
+                <p class="description text-[20px]">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolore fuga eveniet dicta possimus sed alias 
+                    ipsam facere voluptatibus ullam at aperiam vitae, veniam nesciunt doloribus provident blanditiis dolor consequuntur?
+                </p>
+            </div>
+        </div>
+        <div class="investment-button absolute left-[940px] bottom-[87px] flex justify-center items-center border-none z-30">
+            <a href="#" class="investment-link list-none no-underline">
+               <button class="investment absolute w-[130px] h-[40px] flex justify-center items-center text-[15px] overflow-hidden 
+               border-none rounded-[5px] cursor-pointer bg-gray text-black shadow-shadow1 shadow-aliceblue hover:scale-[1.2] duration-500">
+                    سرمایه گذاری شخصی
+               </button>
+            </a>
+        </div>
+    </div>
+    <div class="countainer3 relative top-0 flex justify-center items-center w-full h-10 bg-black mt-3 text-aliceblue"> Slider Start Up! </div>
+    <div class="countainer4 relative top-0 w-full h-[500px] bg-dark z-10">
+        <div class="about-box absolute right-[130px] top-[40px] w-[643px] h-[415px] bg-glass z-20 flex justify-center items-center">
+            <div class="subject absolute top-[25px] w-full h-5 flex justify-center items-center text-aliceblue">
+                <p class="value-subject"> ارتباط با ما </p>
+            </div>
+            <label class="neme-efect absolute right-[15px] top-[92px] text-[20px] text-white">
+                : نام 
+            </label>
+            <input dir="rtl" type="text" placeholder="نام خود را وارد کنید" class="name absolute right-[90px] top-[100px] bg-aliceblue w-35% h-5 text-[15px] text-slate-950 indent-[10px] border-none"  required>
+            <label class="email-efect absolute right-[15px] top-[132px] text-[20px] text-white">
+               : ایمیل 
+            </label>
+            <input dir="rtl" type="email" placeholder="ایمیل خود را وارد کنید" class="email absolute right-[90px] top-[140px] bg-aliceblue w-35% h-5 text-[15px] text-slate-950 indent-[10px] border-none" required> 
+            <label class="request-efect absolute right-[15px] top-[172px] text-[20px] text-white">
+                : متن 
+            </label>
+            <textarea dir="rtl" placeholder="متن درخواست..." class="request absolute right-[90px] top-[180px] bg-aliceblue w-50% h-[185px] text-[15px] text-slate-950 indent-[10px] resize-none overflow-auto border-none" required> </textarea>
+            <input type="submit" value="ارسال" class="record flex justify-center items-center absolute left-[75px] bottom-[50px] w-12% h-[30px] bg-red-600 text-aliceblue border-none cursor-pointer rounded-[5px]">
+           
+        </div>
+        <div class= "icone absolute left-[252px] top-[45px] text-aliceblue border-none flex justify-center items-center p-[15px] m-[10px] text-[180px]">
+            <i class="fa fa-envelope-o text-[180px]"></i>
+        </div>
+        <div class="social-media relative top-[370px] left-[180px] w-25% h-10 bg-glass backdrop-blur-[1px] z-40 flex justify-center items-cente rounded-[6px] gap-[60px]">
+            <div class="box-icone1 relative top-1 flex justify-center items-center border-none rounded-[50%] w-[32px] h-[32px] bg-aliceblue text-[25px] cursor-pointer">
+                <i class=" instagram fa fa-instagram absolute text-pink-700 text-[25px]">  </i>
+            </div>
+            <div class="box-icone2 relative top-1 flex justify-center items-center border-none rounded-[50%] w-[32px] h-[32px] bg-aliceblue text-[25px] cursor-pointer">
+                <i class="telegram fa fa-telegram absolute text-sky-600 text-[25px]">  </i>
+            </div>
+            <div class="box-icone3 relative top-1 flex justify-center items-center border-none rounded-[50%] w-[32px] h-[32px] bg-aliceblue text-[25px] cursor-pointer">
+                <i class="whatsapp fa fa-whatsapp absolute text-green-600 text-[25px]">  </i>
+            </div>
+            <div class="box-icone4 relative top-1 flex justify-center items-center border-none rounded-[50%] w-[32px] h-[32px] bg-aliceblue text-[25px] cursor-pointer">
+                <i class="twitter fa fa-twitter absolute text-sky-700 text-[25px]">  </i>
+            </div>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
